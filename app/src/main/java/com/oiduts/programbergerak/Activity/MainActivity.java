@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             public void onFailure(Call<SiswaResponse> call, Throwable t) {
                 Log.d("ERROR", t.getMessage());
                 progressDialog.dismiss();
-                Toast.makeText(MainActivity.this, "ERROR FETCHING DATA", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "ERROR FETCHING ON DATA", Toast.LENGTH_SHORT).show();
             }
         });
     }
