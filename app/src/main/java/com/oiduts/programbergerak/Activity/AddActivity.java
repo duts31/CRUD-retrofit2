@@ -69,8 +69,8 @@ public class AddActivity extends AppCompatActivity implements View.OnClickListen
     }
 
     @Override
-    public void onClick(View v) {
-        if (v == btn_submit) {
+    public void onClick(View view) {
+        if (view == btn_submit) {
             if (submitAction.equals("POST")) {
                 addSiswa();
             } else {
